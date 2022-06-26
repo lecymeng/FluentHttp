@@ -12,7 +12,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 
 class WanClient {
-  private val baseUrl = ""
+  private val baseUrl = "https://www.wanandroid.com"
 
   private val loggingInterceptor = HttpLoggingInterceptor().apply {
     level = if (BuildConfig.DEBUG) {
